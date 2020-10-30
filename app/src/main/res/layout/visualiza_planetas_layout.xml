@@ -25,11 +25,13 @@
 
         <TextView
             android:id="@+id/mtxtPlaneta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="328dp"
+            android:layout_height="261dp"
+            android:gravity="center_horizontal"
             android:text="Terra"
-            android:textColor="#000"
-            android:textSize="30sp" />
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"/>
     </LinearLayout>
 
 </LinearLayout>

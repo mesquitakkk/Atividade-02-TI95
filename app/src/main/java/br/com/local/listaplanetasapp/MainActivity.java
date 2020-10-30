@@ -16,12 +16,22 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listView;
     //Conteúdo que será inserido na ListView
-    String nomePlanetas[] = {"Jupiter", "Lua", "Marte", "Mercurio",
-            "Netuno", "Plutão", "Saturno", "Sol", "Terra", "Urano", "Venus"};
-    int imgPlanetas[] = {R.drawable.jupiter, R.drawable.lua,
-            R.drawable.marte, R.drawable.mercurio, R.drawable.netuno,
-            R.drawable.plutao, R.drawable.saturno, R.drawable.sol,
-            R.drawable.terra, R.drawable.urano, R.drawable.venus};
+    String nomePlanetas[] = {"Sapiens: Uma Breve História da Humanidade", "Homo Deus", "Princípios Matemáticos da Filosofia Natural",
+            "Palido ponto azul: uma visão do futuro da humanidade no espaço", "O Banquete",
+            "Crítica da Razão Pura", "Uma Breve História do Tempo", "O Universo Numa Casca de Noz",
+            "A Teoria da Relatividade Especial e Geral", "Por uma Nova Liberdade: O Manifesto Libertário",
+            "Discurso do Método", "A Origem das Espécies", "Astrofísica Para Apressados", "1984",
+            "Cem Anos de Solidão", "Dom Casmurro", "Laranja Mecânica", "O Diário de Anne Frank",
+            "Os Miseráveis", "Crime e Castigo"};
+
+    int imgPlanetas[] = {R.drawable.sapiens, R.drawable.homo_deus,
+            R.drawable.principia, R.drawable.palido_ponto_azul, R.drawable.o_banquete,
+            R.drawable.critica_da_razao_pura, R.drawable.uma_breve_historia_do_tempo,
+            R.drawable.o_universo_numa_casca_de_noz, R.drawable.a_teoria_da_relatividade_especial_e_geral,
+            R.drawable.o_manifesto_libertario, R.drawable.discurso_do_metodo, R.drawable.a_origem_das_especies,
+            R.drawable.astrofisica_para_apressados, R.drawable.go1984, R.drawable.cem_anos_de_solidao,
+            R.drawable.dom_casmurro, R.drawable.laranja_mecanica, R.drawable.o_diario_de_anne_frank,
+            R.drawable.os_miseraveis, R.drawable.crime_e_castigo};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
